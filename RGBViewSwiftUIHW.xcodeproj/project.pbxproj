@@ -11,6 +11,11 @@
 		76FBF4042822BD85007F156B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FBF4032822BD85007F156B /* ContentView.swift */; };
 		76FBF4062822BD87007F156B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76FBF4052822BD87007F156B /* Assets.xcassets */; };
 		76FBF4092822BD87007F156B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76FBF4082822BD87007F156B /* Preview Assets.xcassets */; };
+		76FBF4102822BEBF007F156B /* ColorRGBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FBF40F2822BEBF007F156B /* ColorRGBView.swift */; };
+		76FBF4122822D3B4007F156B /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FBF4112822D3B4007F156B /* ToggleView.swift */; };
+		76FBF4142822D5C6007F156B /* TextColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FBF4132822D5C6007F156B /* TextColorView.swift */; };
+		76FBF4162822D6DC007F156B /* TextFieldColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FBF4152822D6DC007F156B /* TextFieldColorView.swift */; };
+		76FBF4182822DA8D007F156B /* SliderRGBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FBF4172822DA8D007F156B /* SliderRGBView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		76FBF4032822BD85007F156B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		76FBF4052822BD87007F156B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76FBF4082822BD87007F156B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		76FBF40F2822BEBF007F156B /* ColorRGBView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorRGBView.swift; sourceTree = "<group>"; };
+		76FBF4112822D3B4007F156B /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
+		76FBF4132822D5C6007F156B /* TextColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextColorView.swift; sourceTree = "<group>"; };
+		76FBF4152822D6DC007F156B /* TextFieldColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldColorView.swift; sourceTree = "<group>"; };
+		76FBF4172822DA8D007F156B /* SliderRGBView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderRGBView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				76FBF4012822BD85007F156B /* RGBViewSwiftUIHWApp.swift */,
 				76FBF4032822BD85007F156B /* ContentView.swift */,
+				76FBF40F2822BEBF007F156B /* ColorRGBView.swift */,
+				76FBF4112822D3B4007F156B /* ToggleView.swift */,
+				76FBF4132822D5C6007F156B /* TextColorView.swift */,
+				76FBF4152822D6DC007F156B /* TextFieldColorView.swift */,
+				76FBF4172822DA8D007F156B /* SliderRGBView.swift */,
 				76FBF4052822BD87007F156B /* Assets.xcassets */,
 				76FBF4072822BD87007F156B /* Preview Content */,
 			);
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76FBF4182822DA8D007F156B /* SliderRGBView.swift in Sources */,
+				76FBF4122822D3B4007F156B /* ToggleView.swift in Sources */,
 				76FBF4042822BD85007F156B /* ContentView.swift in Sources */,
+				76FBF4162822D6DC007F156B /* TextFieldColorView.swift in Sources */,
+				76FBF4102822BEBF007F156B /* ColorRGBView.swift in Sources */,
 				76FBF4022822BD85007F156B /* RGBViewSwiftUIHWApp.swift in Sources */,
+				76FBF4142822D5C6007F156B /* TextColorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
